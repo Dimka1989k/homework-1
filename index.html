@@ -5,31 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+  <body class="body">
+    <!--Шапка сайта-->
+    <header class="page">
+      <nav class="">
+        <a href="./index.html" class="logo">
+          <span class="logo-studio">Web</span>Studio</a
+        >
+        <ul clas="menu">
+          <li class="menu-item"><a class="menu-link" href="">Студия</a></li>
+          <li class="menu-item"><a class="menu-link" href="">Портфолио</a></li>
+          <li class="menu-item"><a class="menu-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
+      <ul class="contacts">
+        <li class="contact-link">
+          <a class="contact-type" href="mailto:info@devstudio.co"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-link">
+          <a class="contact-type" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <!--Шапка-->
+      <section class="hat">
+        <h1 class="solution">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <button class="button" type="button">Заказать услугу</button>
       </section>
+      <!--Особенности-->
       <ul>
         <li>
-          <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-          <p>
+          <h3 clas="">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+          <p clas="">
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
@@ -37,8 +57,8 @@
         <li>
           <h3>ПУНКТУАЛЬНОСТЬ</h3>
           <p>
-            Идейные соображения, а также начало повседневной работы по
-            формированию позиции.
+            Задача организации, в особенности же рамки и место обучения кадров
+            влечет за собой.
           </p>
         </li>
         <li>
@@ -56,7 +76,8 @@
           </p>
         </li>
       </ul>
-      <section>
+      <!--Чем мы занимаемся-->
+      <section class="work">
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li><img src="images/box1.jpg" alt="Работа" width="370" /></li>
@@ -64,6 +85,7 @@
           <li><img src="images/box3.jpg" alt="Работа2" width="370" /></li>
         </ul>
       </section>
+      <!--Команда-->
       <section>
         <h2>Наша команда</h2>
         <ul>
@@ -94,6 +116,7 @@
         </ul>
       </section>
     </main>
+    <!--Подвал-->
     <footer>
       <a href="">WebStudio</a>
       <address>
