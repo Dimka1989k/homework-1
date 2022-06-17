@@ -2,7 +2,9 @@
 .body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    color: #212121;
+    
+    
+   
 }
 
 
@@ -19,7 +21,7 @@ ul {
 /* Шапка сайта */
 
 .logo {
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -31,7 +33,7 @@ ul {
 }
 
 .logo-studio {
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -44,7 +46,7 @@ ul {
 
 
 .menu-link {
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -61,7 +63,7 @@ ul {
 }
 
 .contact-type {
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -78,9 +80,6 @@ ul {
 
 }
 
-
-/* Контакты */
-
  /* Шапка */
 .hat {
     font-size: 44px;
@@ -89,7 +88,7 @@ ul {
 }
 
 .solution {
-    font-style: normal;
+    
     color:#FFFFFF;
 
 }
@@ -103,13 +102,15 @@ ul {
     border-radius: 0.1em;
     cursor: pointer;
     
-  
 }
  
-/*Особенности*/
+/* Особенности */
 
-.benefits {
-    font-style: normal;
+.benefits 
+.benefits1
+.benefits2 
+.benefits3 {
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -118,16 +119,143 @@ ul {
     color: #212121;
 }
 
-.benefits-list {
+.text
+.text1
+.text2
+.text3 {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
+
  /* Чем мы занимаемся */
 
+ .work-position {
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #212121;
 
+}
+
+/* Команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+
+
+
+.design {
+    background: #FFFFFF;          
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: url(4853.jpg);
+    border-radius: 0px;
+    
+}
+
+.name {
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+
+
+.job-title {
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;                    
+        color: #757575;
+}
+
+.frontend {
+    background: #FFFFFF;    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: url(5844.jpg);
+    border-radius: 0px;
+}
+
+.Marketing {
+    background: #FFFFFF;    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: url(16166.jpg);
+    border-radius: 0px;
+}
+
+.designer {
+    background: #FFFFFF;           
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: url(2968.jpg);
+    border-radius: 0px;
+}
  /* Подвал */
+
+ .footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+ }
+
+
+ .home {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+
+ }
+
+
+
+ .logo1 {
+     
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;;
+     text-decoration: none;
+
+
+ }
+
+ .logo-studio1 {
+     
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     color: #2196F3;
+     text-decoration: none;
+
+ }
