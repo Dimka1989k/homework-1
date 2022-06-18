@@ -106,30 +106,8 @@ ul {
  
 /* Особенности */
 
-.benefits 
-.benefits1
-.benefits2 
-.benefits3 {
-    
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
 
-.text
-.text1
-.text2
-.text3 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
+
 
 
  /* Чем мы занимаемся */
@@ -175,8 +153,9 @@ ul {
 }
 
 .name {
+    font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 19px;    
     color: #212121;
 }
 
