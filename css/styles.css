@@ -2,8 +2,8 @@
 .body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    
-    
+
+       
    
 }
 
@@ -13,9 +13,12 @@ li {
 }
 
 ul {
-   padding-left: 0;
-    
+    padding-left: 0;
+
 }
+
+
+
 
 
 /* Шапка сайта */
@@ -63,7 +66,6 @@ ul {
 }
 
 .contact-type {
-    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -102,12 +104,34 @@ ul {
     border-radius: 0.1em;
     cursor: pointer;
     
+    
 }
  
 /* Особенности */
 
 
 
+    
+
+
+.title {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;    
+        color: #212121;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 
  /* Чем мы занимаемся */
@@ -204,7 +228,7 @@ ul {
 
 
  .home {
-    
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -217,7 +241,7 @@ ul {
 
 
  .logo1 {
-     
+    font-style: normal;
      font-weight: 700;
      font-size: 26px;
      line-height: 31px;
@@ -229,7 +253,7 @@ ul {
  }
 
  .logo-studio1 {
-     
+    font-style: normal;
      font-weight: 700;
      font-size: 26px;
      line-height: 31px;
@@ -237,4 +261,13 @@ ul {
      color: #2196F3;
      text-decoration: none;
 
+ }
+
+ .contact-type {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
  }
